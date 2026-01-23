@@ -1,6 +1,6 @@
 module github.com/wasmcloud/wasmcloud/examples/security/opa
 
-go 1.23.8
+go 1.24.0
 
 toolchain go1.24.1
 
@@ -40,8 +40,8 @@ require (
 	go.opentelemetry.io/otel/metric v1.35.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.35.0 // indirect
 	go.opentelemetry.io/otel/trace v1.35.0 // indirect
-	golang.org/x/crypto v0.36.0 // indirect
-	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect

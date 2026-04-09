@@ -400,7 +400,7 @@ wasmcloud-secrets-types = { version = "^0.8.0", path = "./crates/secrets-types",
 wasmcloud-test-util = { version = "^0.19.0", path = "./crates/test-util", default-features = false }
 wasmcloud-tracing = { version = "^0.16.0", path = "./crates/tracing", default-features = false }
 wasmparser = { version = "0.228", default-features = false }
-wasmtime = { version = "40.0.3", default-features = false }
+wasmtime = { version = "41.0.4", default-features = false }
 wasmtime-wasi = { version = "38.0.4", default-features = false }
 wasmtime-wasi-http = { version = "38.0.4", default-features = false }
 wasmtime-wit-bindgen = { version = "38.0.4", default-features = false }

@@ -244,6 +244,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "astral-tokio-tar"
+version = "0.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3c23f3af104b40a3430ccb90ed5f7bd877a8dc5c26fc92fde51a22b40890dcf9"
+dependencies = [
+ "filetime",
+ "futures-core",
+ "libc",
+ "portable-atomic",
+ "rustc-hash",
+ "tokio",
+ "tokio-stream",
+]
+
+[[package]]
 name = "async-broadcast"
 version = "0.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -5817,7 +5832,7 @@ dependencies = [
 name = "provider-archive"
 version = "0.16.1"
 dependencies = [
- "astral-tokio-tar",
+ "astral-tokio-tar 0.6.0",
  "async-compression",
  "data-encoding",
  "ring",
@@ -7680,7 +7695,7 @@ version = "0.25.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3f3ac71069f20ecfa60c396316c283fbf35e6833a53dff551a31b5458da05edc"
 dependencies = [
- "astral-tokio-tar",
+ "astral-tokio-tar 0.5.6",
  "async-trait",
  "bollard",
  "bytes",
@@ -8920,7 +8935,7 @@ dependencies = [
  "anstyle",
  "anyhow",
  "assert-json-diff",
- "astral-tokio-tar",
+ "astral-tokio-tar 0.6.0",
  "async-compression",
  "async-nats",
  "async_zip",

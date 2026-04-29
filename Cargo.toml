@@ -227,7 +227,7 @@ members = ["crates/*"]
 anstyle = { version = "1.0.11", default-features = false }
 anyhow = { version = "1", default-features = false }
 assert-json-diff = { version = "2", default-features = false }
-astral-tokio-tar = { version = "0.5.6", default-features = false }
+astral-tokio-tar = { version = "0.6.0", default-features = false }
 async-compression = { version = "0.4", default-features = false }
 async-nats = { version = "0.39", default-features = false }
 async_zip = { version = "0.0.18", default-features = false }

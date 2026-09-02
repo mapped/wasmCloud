@@ -9060,7 +9060,7 @@ dependencies = [
  "wasmcloud-test-util",
  "wasmparser 0.228.0",
  "wasmtime 41.0.4",
- "wasmtime-wasi",
+ "wasmtime-wasi 41.0.4",
  "wasmtime-wasi-http",
  "wat",
  "which",
@@ -10013,7 +10013,7 @@ dependencies = [
  "wasmcloud-core",
  "wasmparser 0.228.0",
  "wasmtime 41.0.4",
- "wasmtime-wasi",
+ "wasmtime-wasi 41.0.4",
  "wasmtime-wasi-http",
  "wit-bindgen-wrpc 0.9.0",
  "wit-component 0.224.1",
@@ -10758,8 +10758,38 @@ dependencies = [
  "tracing",
  "url",
  "wasmtime 38.0.4",
- "wasmtime-wasi-io",
+ "wasmtime-wasi-io 38.0.4",
  "windows-sys 0.60.2",
+]
+
+[[package]]
+name = "wasmtime-wasi"
+version = "41.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fc2eb9dc95baed3cd86fdfebf9f9f333337eb308bf8bd973e0c7b06d9418c35f"
+dependencies = [
+ "anyhow",
+ "async-trait",
+ "bitflags 2.10.0",
+ "bytes",
+ "cap-fs-ext",
+ "cap-net-ext",
+ "cap-rand",
+ "cap-std",
+ "cap-time-ext",
+ "fs-set-times",
+ "futures",
+ "io-extras",
+ "io-lifetimes",
+ "rustix 1.1.2",
+ "system-interface",
+ "thiserror 2.0.17",
+ "tokio",
+ "tracing",
+ "url",
+ "wasmtime 41.0.4",
+ "wasmtime-wasi-io 41.0.4",
+ "windows-sys 0.61.2",
 ]
 
 [[package]]
@@ -10781,8 +10811,8 @@ dependencies = [
  "tokio-rustls 0.25.0",
  "tracing",
  "wasmtime 38.0.4",
- "wasmtime-wasi",
- "wasmtime-wasi-io",
+ "wasmtime-wasi 38.0.4",
+ "wasmtime-wasi-io 38.0.4",
  "webpki-roots 0.26.11",
 ]
 
@@ -10797,6 +10827,19 @@ dependencies = [
  "bytes",
  "futures",
  "wasmtime 38.0.4",
+]
+
+[[package]]
+name = "wasmtime-wasi-io"
+version = "41.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a0b8402f1e04385071fdd96aca97cba995d7376b572e42ce5841d5b6aaf6fa30"
+dependencies = [
+ "anyhow",
+ "async-trait",
+ "bytes",
+ "futures",
+ "wasmtime 41.0.4",
 ]
 
 [[package]]
@@ -11929,7 +11972,7 @@ dependencies = [
  "uuid 1.18.1",
  "wasm-tokio",
  "wasmtime 38.0.4",
- "wasmtime-wasi",
+ "wasmtime-wasi 38.0.4",
  "wit-parser 0.220.1",
  "wrpc-introspect 0.7.0",
  "wrpc-transport",
